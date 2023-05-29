@@ -5,7 +5,9 @@ use DeweyTest;
 
 
 
--- uhhh child PKs are not always going to be unique? :(  
+-- uhhh child PKs are not always going to be unique? :( 
+-- probably could just add another column,
+-- but I think keeping the PKs as the actual numbers in the entity would be very preferred
 
 
 CREATE TABLE Classes (
